@@ -13,10 +13,12 @@ const App = () =>{
 }
 
 const Hello = (props) => {
-  return (<>
-    <p> Hello, {props.name} </p>
-    <div> Test </div>
-  </>)
+  return (
+    <>
+      <p> Hello, {props.name} </p>
+      <div> Test </div>
+    </>
+  )
 }
 
 export default App
